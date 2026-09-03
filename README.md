@@ -1,1 +1,7 @@
 # database-workbench-lab
+# Database Workbench Lab Summary
+
+* **PostgreSQL:** Installation involves using `apt` or Docker, starting the service, and confirming installation with `SELECT version();`. Core tasks include opening the PostgreSQL shell, creating a database named `bootcamp`, creating a structured table with defined columns, and inserting/retrieving records via `SELECT`. The key takeaway is that structure, schema, columns, and data types must be defined before inserting data.
+* **Redis:** Setup requires installing or running via Docker and interacting via `redis-cli`. Operations involve storing key-value pairs using `SET`, retrieving values using `GET`, and setting temporary data with expiry (`EX`) and time-to-live (`TTL`). The key takeaway is that no tables or schemas are used, as data is stored simply as key-value pairs.
+* **MongoDB:** Setup involves installing or using Docker and opening the mongo shell (`mongosh`). Core tasks include creating or using a database named `bootcamp`, inserting a JSON-like document into a collection, and retrieving documents using `find()`. The key takeaway is that there is no predefined schema, making data flexible and JSON-like.
+* **Reflections & Wrap Up:** PostgreSQL requires a strict structure before inserting data, Redis provides quick key-value storage without structure, and MongoDB allows flexible, JSON-like data without predefined schemas. The lab results in a working database workbench with three distinct engines—relational, key-value, and document models—to be utilized throughout the course.
