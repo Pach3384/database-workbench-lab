@@ -1,0 +1,4 @@
+PostgreSQL requires strict structure and schema definitions before inserting data.
+Redis provides quick, simple key-value storage without any rigid schema or tables.
+MongoDB allows flexible, JSON-like data storage without predefined schemas.
+Overall, this lab successfully built a working database workbench comparing relational, key-value, and document models.
